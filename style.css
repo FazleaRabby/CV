@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+      
+}
+body
+{
+    background: lightblue;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+
+
+}
+.container{
+    position: relative;
+    margin: 50px;
+    background: #fff;
+    width: 100%;
+    min-height: 1300px;
+    display: grid;
+    grid-template-columns: 1fr  2fr;
+    box-shadow: 0 35px 55px rgba(0, 0,0, 0.1);
+}
+.left-side{
+    position: relative;
+    background:rgb(3, 3, 73);
+    padding: 40px;
+}
+.right-side{
+
+    position : relative;
+    background: white;
+    padding:40px;  
+
+}
+.profile-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom:1px solid rgba(255, 255 ,255, 0.2) ;
+
+
+}
+.imgBX{
+    position: relative;
+    height :200px ;
+    width : 200px ;
+    border-radius:50% ;
+    overflow: hidden;
+    margin: auto;
+}
+.imgBX img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+   
+     
+}
+.profile-content h2 {
+    color: #fff;
+    font: 200;
+    margin-top: 25px;
+     text-transform: uppercase;
+     font-weight: 600;
+     line-height: 1.4em;
+     text-align: center;
+}
+.title{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px ;
+    margin-bottom: 20px;
+
+margin-top: 50px;
+}
+.contact ul{
+    position: relative;
+
+
+}
+.contact ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+.icon{
+    display: inline-block;
+    width: 25px;
+    font-size: 20px;
+    color: rgb(126, 205, 216);
+}
+.text {
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.Hobbies ul{
+    position: relative;
+
+
+}
+.Hobbies ul li{
+    list-style: none;
+    position: relative;
+    margin: 5px 0;
+    cursor: pointer;
+
+}
+.iconH{
+    display: inline-block;
+    width: 25px;
+    font-size: 20px;
+    color: rgb(126, 205, 216);}
+    .textH {
+        color: #fff;
+        font-weight: 300;
+    }
+    .titleED{
+        color:rgb(22, 58, 112);
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 1px ;
+        margin-bottom: 20px;
+        font-size: 30px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom:2px solid rgba(9, 17, 49, 0.2) ;
+   
+    
+    }
+    .titleAb{
+        color:rgb(22, 58, 112);
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 1px ;
+        margin-bottom: 20px;
+        font-size: 30px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom:2px solid rgba(9, 17, 49, 0.2) ;
+    }
+h2{
+    color: rgb(22, 58, 112);
+    font-weight: 600;
+}
+h4{
+    color: rgb(22, 58, 112);
+    font-weight: 400;}
+    .titleSk{
+        color:rgb(22, 58, 112);
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 1px ;
+        margin-bottom: 20px;
+        font-size: 30px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom:2px solid rgba(9, 17, 49, 0.2) ;
+   
+    
+    }
+    .percent{
+        position: relative;
+        width: 100%;
+        height: 5px;
+        background: #0a1e27;
+        display: block;
+        margin-top: 5px;
+
+    }
+    .percent div{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background: skyblue;
+    }
+    a{
+        color: #fff;
+    font-weight: 300;
+    }
+    .titleLan{
+        color:rgb(22, 58, 112);
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 1px ;
+        margin-bottom: 20px;
+        font-size: 30px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom:2px solid rgba(9, 17, 49, 0.2) ;
+   
+    
+    }
+    .icongit{
+        display: inline-block;
+        width: 25px;
+        font-size: 20px;
+        color: rgb(126, 205, 216);
+        margin-top: 300px;
+    }
+        .textgit {
+            color: #fff;
+            font-weight: 300;
+            margin-top: 300px;
+        }
